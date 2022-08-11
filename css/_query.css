@@ -8,6 +8,13 @@
   }
 
   /* ***************** */
+  /* ACCORDION */
+  /* ***************** */
+  .accordion-button {
+    align-items: flex-start;
+  }
+
+  /* ***************** */
   /* LAYOUT */
   /* ***************** */
   .grid--2-cols,
@@ -79,5 +86,58 @@
   .m-explore-link {
     display: inline-block;
     margin-top: 54px;
+  }
+
+  /* ***************** */
+  /* WCU */
+  /* ***************** */
+  .services > .container > .grid,
+  .wcu > .container > .grid {
+    gap: 68px;
+  }
+
+  .service-text-container {
+    grid-row: 1;
+  }
+
+  /* ***************** */
+  /* FOOTER */
+  /* ***************** */
+  .footer-form > .btn {
+    width: 100%;
+  }
+
+  .footer-text-box {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  /* ***************** */
+  /* CAROUSEL */
+  /* ***************** */
+  .carousel-inner {
+    --carousel-col: 1;
+  }
+
+  .carousel-inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carousel-item {
+    flex-basis: 90%;
+  }
+
+  /* ***************** */
+  /* FOOTER */
+  /* ***************** */
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-bottom-right {
+    flex-direction: column;
+    gap: 16px;
   }
 }

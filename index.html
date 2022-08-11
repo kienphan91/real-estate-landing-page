@@ -7,6 +7,9 @@
     <!-- ADD FAVICON -->
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 
+    <!-- AOS ANIMATE CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -30,15 +33,27 @@
           </button>
 
           <ul class="navbar-nav order-first">
-            <li class="nav-item"><a href="" class="nav-link">Buying</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Renting</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Selling</a></li>
+            <li class="nav-item">
+              <a href="" class="nav-link underline">Buying</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link underline">Renting</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link underline">Selling</a>
+            </li>
           </ul>
 
           <ul class="navbar-nav">
-            <li class="nav-item"><a href="" class="nav-link">About us</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="" class="nav-link">contact</a></li>
+            <li class="nav-item">
+              <a href="" class="nav-link underline">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link underline">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link underline">contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -49,13 +64,108 @@
       <section class="hero">
         <div class="container">
           <div class="grid grid--2-cols">
-            <div class="hero-img-container">
+            <div class="hero-img-container" data-aos="fade-right">
               <div class="img-box hero-img-box">
                 <img src="./img/banner.png" alt="Banner" />
+                <div class="hero-cards">
+                  <div class="card">
+                    <img
+                      src="./img/features/feature-1.png"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-body">
+                      <p class="card-title">
+                        <ion-icon name="location"></ion-icon>
+                        Jakarta Barat, USA
+                      </p>
+                      <div class="card-features">
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          4 bed
+                        </p>
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          10x10 m
+                        </p>
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          1900 S
+                        </p>
+                      </div>
+                      <div class="card-flex">
+                        <button class="btn btn-outline">Book now</button>
+                        <p class="card-price">$5,200,000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="./img/features/feature-1.png"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-body">
+                      <p class="card-title">
+                        <ion-icon name="location"></ion-icon>
+                        Jakarta Barat, USA
+                      </p>
+                      <div class="card-features">
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          4 bed
+                        </p>
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          10x10 m
+                        </p>
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          1900 S
+                        </p>
+                      </div>
+                      <div class="card-flex">
+                        <button class="btn btn-outline">Book now</button>
+                        <p class="card-price">$5,200,000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="./img/features/feature-1.png"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-body">
+                      <p class="card-title">
+                        <ion-icon name="location"></ion-icon>
+                        Jakarta Barat, USA
+                      </p>
+                      <div class="card-features">
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          4 bed
+                        </p>
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          10x10 m
+                        </p>
+                        <p class="card-feature-item">
+                          <ion-icon name="location"></ion-icon>
+                          1900 S
+                        </p>
+                      </div>
+                      <div class="card-flex">
+                        <button class="btn btn-outline">Book now</button>
+                        <p class="card-price">$5,200,000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="hero-text-container">
+            <div class="hero-text-container" data-aos="fade-left">
               <div class="hero-heading">
                 <h1 class="heading-primary">
                   Discover the ideal property here
@@ -104,7 +214,7 @@
               </div>
             </div>
 
-            <div class="hero-rate-container">
+            <div class="hero-rate-container" data-aos="fade-left">
               <div class="hero-rate">
                 <div class="hero-rate-box">
                   <h3 class="hero-rate-number">280<span>+</span></h3>
@@ -139,9 +249,9 @@
         <div class="feature-wrapper">
           <div class="container">
             <div class="grid grid--3-cols">
-              <div class="card">
+              <div class="card" data-aos="fade-right">
                 <img
-                  src="./img/features/features1.png"
+                  src="./img/features/feature-1.png"
                   alt=""
                   class="card-img"
                 />
@@ -170,9 +280,9 @@
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" data-aos="fade-up">
                 <img
-                  src="./img/features/features2.png"
+                  src="./img/features/feature-2.png"
                   alt=""
                   class="card-img"
                 />
@@ -201,9 +311,9 @@
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" data-aos="fade-left">
                 <img
-                  src="./img/features/features3.png"
+                  src="./img/features/feature-3.png"
                   alt=""
                   class="card-img"
                 />
@@ -237,7 +347,7 @@
           <div class="feature-intersect-bg">
             <img
               class="feature-intersect-img"
-              src="./img/features/BG.png"
+              src="./img/Intersect.png"
               alt=""
             />
           </div>
@@ -251,81 +361,201 @@
       <section class="services">
         <div class="container">
           <div class="grid grid--2-cols">
-            <div class="services-img-container">
-              <div class="img-box services-img-box">
-                <img src="./img/services.png" alt="Our Services" />
+            <div class="service-img-container" data-aos="flip-left">
+              <div class="img-box service-img-box">
+                <img src="./img/service.png" alt="Service" />
               </div>
             </div>
-            <div class="services-text-container">
-              <p class="subheading-secondary">Our Services</p>
-              <h2 class="heading-secondary">
-                We make your comfort our top priority.
-              </h2>
-              <p class="services-text-container-description">
-                In a free hour, when our power of choice is untrammelled and
-                when nothing prevents our being able to do what we like best.
-              </p>
-              <div class="grid-child">
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-                  <p class="subheading-secondary">Best market</p>
+            <div class="service-text-container" data-aos="flip-right">
+              <div class="service-text-wrapper ml-auto">
+                <div class="service-text-box">
+                  <p class="subheading-secondary">Our Services</p>
+                  <h2 class="heading-secondary">
+                    We make your comfort our top priority.
+                  </h2>
+                  <p>
+                    In a free hour, when our power of choice is untrammelled and
+                    when nothing prevents our being able to do what we like
+                    best.
+                  </p>
                 </div>
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-                  <p class="subheading-secondary">Unstable prices</p>
+                <ul class="service-feature-list grid grid--2-cols">
+                  <li class="service-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Best market
+                  </li>
+                  <li class="service-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Unstable prices
+                  </li>
+                  <li class="service-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Top sell
+                  </li>
+                  <li class="service-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Security of data
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY CHOOSE US -->
+      <section class="wcu">
+        <div class="container">
+          <div class="grid grid--2-cols">
+            <div class="wcu-img-container">
+              <div class="img-box wcu-img-box">
+                <img src="./img/benefit.png" alt="WCU" />
+              </div>
+
+              <div class="employee-box">
+                <div class="employee-text-box">
+                  <p class="employee-title">70+ Employee</p>
+                  <p class="employee-rate">
+                    <ion-icon name="star"></ion-icon>
+                    <span>4.9</span>
+                    (6.4k reviews)
+                  </p>
                 </div>
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-                  <p class="subheading-secondary">Top sell</p>
+                <div class="employee-img-box">
+                  <div class="employee-img">
+                    <img src="./img/employees/employee-1.png" alt="" />
+                  </div>
+                  <div class="employee-img">
+                    <img src="./img/employees/employee-2.png" alt="" />
+                  </div>
+                  <div class="employee-img">
+                    <img src="./img/employees/employee-3.png" alt="" />
+                  </div>
+                  <div class="employee-img">
+                    <img src="./img/employees/employee-4.png" alt="" />
+                  </div>
                 </div>
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-                  <p class="subheading-secondary">Security of data</p>
+              </div>
+            </div>
+            <div class="wcu-text-container">
+              <div class="wcu-text-wrapper">
+                <div class="wcu-text-box">
+                  <p class="subheading-secondary">Our Services</p>
+                  <h2 class="heading-secondary">
+                    We make your comfort our top priority.
+                  </h2>
+                  <p>
+                    In a free hour, when our power of choice is untrammelled and
+                    when nothing prevents our being able to do what we like
+                    best.
+                  </p>
                 </div>
+                <ul class="wcu-feature-list grid">
+                  <li class="wcu-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Best market
+                  </li>
+                  <li class="wcu-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Unstable prices
+                  </li>
+                  <li class="wcu-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Top sell
+                  </li>
+                  <li class="wcu-feature-item">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 10.9922C17.6847 11.3842 15.2054 11.7448 13.6833 12.9366C11.8944 14.3321 11.4708 16.8881 11 22C10.5136 16.6999 10.0742 14.1597 8.1127 12.7954C6.59059 11.7292 4.12696 11.3842 0 11.0078C4.29957 10.6158 6.79458 10.2552 8.301 9.07912C10.1056 7.66785 10.5292 5.12758 11 0C11.4394 4.71989 11.8317 7.24448 13.291 8.70278C14.7504 10.1611 17.2924 10.5688 22 10.9922Z"
+                        fill="#4573FD"
+                      />
+                    </svg>
+                    Security of data
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -335,106 +565,268 @@
       <!-- BLOG -->
       <section class="blog">
         <div class="container">
-          <div class="grid grid--2-cols blog-grid">
-            <div class="services-text-container">
-              <p class="subheading-secondary">Benefits</p>
-              <h2 class="heading-secondary">Why Choose us</h2>
-              <p class="services-text-container-description">
-                Renty is a trustworthy developer in the real estate business. He
-                has developed a reputation for trust and will have that
-                reputation for years to come.
-              </p>
-              <div class="grid-child">
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M9.85417 1.83325C9.85417 1.45356 9.54635 1.14575 9.16667 1.14575C8.78698 1.14575 8.47917 1.45356 8.47917 1.83325V3.66659C8.47917 4.04628 8.78698 4.35409 9.16667 4.35409C9.54635 4.35409 9.85417 4.04628 9.85417 3.66659V1.83325ZM13.5208 4.58325C13.5208 4.20356 13.213 3.89575 12.8333 3.89575C12.4537 3.89575 12.1458 4.20356 12.1458 4.58325V6.41659C12.1458 6.79628 12.4537 7.10409 12.8333 7.10409C13.213 7.10409 13.5208 6.79628 13.5208 6.41659V4.58325ZM6.61337 6.15864C6.9772 6.05 7.18407 5.667 7.07543 5.30317C6.9668 4.93936 6.5838 4.73249 6.21997 4.84111C5.33743 5.10462 4.56477 5.45207 3.99737 5.88265C3.43927 6.30619 2.97917 6.89279 2.97917 7.63226C2.97917 11.1464 4.8279 14.2233 7.5625 15.6601V18.3432C7.5625 20.2147 9.53985 21.4166 11.209 20.5877L13.0423 19.6772C13.8957 19.2534 14.4375 18.3853 14.4375 17.4327V15.6601C17.1721 14.2233 19.0208 11.1464 19.0208 7.63226C19.0208 6.89279 18.5608 6.30619 18.0026 5.88265C17.4353 5.45207 16.6626 5.10462 15.7801 4.84111C15.4162 4.73249 15.0332 4.93936 14.9246 5.30317C14.8159 5.667 15.0228 6.05 15.3866 6.15864C16.1806 6.3957 16.783 6.68316 17.1715 6.97797C17.5692 7.27983 17.6458 7.50913 17.6458 7.63226C17.6458 7.74032 17.5895 7.927 17.3027 8.17952C17.017 8.43108 16.5642 8.68898 15.9455 8.91944C14.7132 9.37843 12.9649 9.67625 11 9.67625C9.03513 9.67625 7.28678 9.37843 6.05452 8.91944C5.43579 8.68898 4.98299 8.43108 4.69733 8.17952C4.41057 7.927 4.35417 7.74032 4.35417 7.63226C4.35417 7.50913 4.43081 7.27983 4.82858 6.97797C5.21706 6.68316 5.81939 6.3957 6.61337 6.15864ZM9.16667 5.72909C9.54635 5.72909 9.85417 6.03689 9.85417 6.41659V7.33325C9.85417 7.71294 9.54635 8.02075 9.16667 8.02075C8.78698 8.02075 8.47917 7.71294 8.47917 7.33325V6.41659C8.47917 6.03689 8.78698 5.72909 9.16667 5.72909Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-                  <p class="subheading-secondary">Trusted Developer</p>
-                </div>
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M18.3333 5.49992V10.6438C18.0385 10.5769 17.7317 10.5416 17.4167 10.5416H16.5C15.4901 10.5416 14.5392 11.0171 13.9333 11.8249L12.8333 13.2916C12.4006 13.8686 11.7213 14.2083 11 14.2083C10.2787 14.2083 9.59942 13.8686 9.16666 13.2916L8.06666 11.8249C7.46075 11.0171 6.50984 10.5416 5.49999 10.5416H4.58333C4.26828 10.5416 3.96147 10.5769 3.66666 10.6438V5.49992C3.66666 3.47487 5.30828 1.83325 7.33333 1.83325H14.6667C16.6917 1.83325 18.3333 3.47487 18.3333 5.49992ZM20.1667 14.6666V17.4166C20.1667 18.9354 18.9355 20.1666 17.4167 20.1666H4.58333C3.06455 20.1666 1.83333 18.9354 1.83333 17.4166V14.6666C1.83333 13.1478 3.06455 11.9166 4.58333 11.9166H5.49999C6.07705 11.9166 6.62043 12.1883 6.96666 12.6499L8.06666 14.1166C8.75913 15.0399 9.84591 15.5833 11 15.5833C12.1541 15.5833 13.2409 15.0399 13.9333 14.1166L15.0333 12.6499C15.3796 12.1883 15.923 11.9166 16.5 11.9166H17.4167C18.9355 11.9166 20.1667 13.1478 20.1667 14.6666Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-
-                  <p class="subheading-secondary">No Commisions</p>
-                </div>
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M5.49999 1.83325C3.47495 1.83325 1.83333 3.47487 1.83333 5.49992V16.4999C1.83333 18.5249 3.47495 20.1666 5.49999 20.1666H16.5C18.525 20.1666 20.1667 18.5249 20.1667 16.4999V5.49992C20.1667 3.47487 18.525 1.83325 16.5 1.83325H5.49999ZM11.6876 5.49992C11.6876 5.12023 11.3798 4.81242 11.0001 4.81242C10.6204 4.81242 10.3126 5.12023 10.3126 5.49992V6.69973C9.34862 6.85262 8.48997 7.32189 7.84636 7.9978L6.45784 7.19614C6.12901 7.00629 5.70855 7.11895 5.51869 7.44778C5.32885 7.77661 5.44151 8.19707 5.77034 8.38692L7.06475 9.13425C6.7962 9.69972 6.64594 10.3323 6.64594 10.9999C6.64594 11.6675 6.79619 12.3001 7.06474 12.8655L5.77034 13.6129C5.44151 13.8027 5.32885 14.2232 5.51869 14.552C5.70855 14.8808 6.12901 14.9935 6.45784 14.8036L7.84632 14.002C8.48993 14.678 9.34862 15.1472 10.3126 15.3001V16.4999C10.3126 16.8796 10.6204 17.1874 11.0001 17.1874C11.3798 17.1874 11.6876 16.8796 11.6876 16.4999V15.3001C12.6516 15.1472 13.5103 14.678 14.1539 14.002L15.5423 14.8036C15.8711 14.9935 16.2915 14.8808 16.4814 14.5519C16.6712 14.2231 16.5586 13.8026 16.2298 13.6128L14.9354 12.8655C15.204 12.3001 15.3543 11.6675 15.3543 10.9999C15.3543 10.3323 15.204 9.69972 14.9354 9.13424L16.2298 8.38698C16.5586 8.19713 16.6712 7.77666 16.4814 7.44783C16.2915 7.11901 15.8711 7.00634 15.5423 7.19619L14.1539 7.99779C13.5102 7.32189 12.6516 6.85262 11.6876 6.69973V5.49992ZM8.02094 10.9999C8.02094 9.35459 9.35476 8.02075 11.0001 8.02075C12.6454 8.02075 13.9793 9.35459 13.9793 10.9999C13.9793 12.6452 12.6454 13.9791 11.0001 13.9791C9.35476 13.9791 8.02094 12.6452 8.02094 10.9999Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-
-                  <p class="subheading-secondary">A safe and Trustworthy</p>
-                </div>
-                <div class="services-text-description">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.832 20.1666H7.16802C5.05167 20.1666 3.33603 18.5294 3.33603 16.5098V12.0385C3.33603 11.3893 3.06577 10.7667 2.58472 10.3076C1.47017 9.24404 1.61506 7.4818 2.88981 6.59709L8.74614 2.53267C10.0898 1.60011 11.9102 1.60011 13.2539 2.53267L19.1102 6.59708C20.3849 7.4818 20.5299 9.24404 19.4153 10.3076C18.9342 10.7667 18.664 11.3893 18.664 12.0385V16.5098C18.664 18.5294 16.9484 20.1666 14.832 20.1666ZM8.34762 9.57615L10.1801 8.65986C10.6962 8.4018 11.3038 8.4018 11.8199 8.65986L13.6447 9.5723C14.2702 9.88507 14.6716 10.528 14.634 11.2263C14.4863 13.9739 13.8188 15.2527 12.0203 16.6716C11.4232 17.1425 10.5775 17.1414 9.97976 16.6715C8.18592 15.2614 7.49382 13.9985 7.3589 11.2177C7.32522 10.5236 7.72609 9.8869 8.34762 9.57615Z"
-                      fill="#4573FD"
-                    />
-                  </svg>
-                  <p class="subheading-secondary">Buy with Confidence</p>
-                </div>
+          <div class="blog-heading-box">
+            <p class="subheading-secondary">Popular</p>
+            <div class="blog-heading-flex">
+              <h2 class="heading-secondary">
+                Homes for Renty News And Stories
+              </h2>
+              <div class="carousel-controls">
+                <button class="carousel-control-prev" type="button">
+                  <ion-icon
+                    class="carousel-control-prev-icon"
+                    name="chevron-back"
+                  ></ion-icon>
+                </button>
+                <button class="carousel-control-next" type="button">
+                  <ion-icon
+                    class="carousel-control-next-icon"
+                    name="chevron-forward"
+                  ></ion-icon>
+                </button>
               </div>
             </div>
-            <div class="blog-img-container">
-              <div class="img-box blog-img-box">
-                <img src="./img/benefit.png" alt="Blog" />
+          </div>
+
+          <div class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="./img/houses/house-1.png" alt="" />
+                <div class="carousel-text-box">
+                  <div>
+                    <p class="carousel-title">Editorial House</p>
+                    <p class="carousel-desc">JL. Kencana oke. No2 universen</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/houses/house-2.png" alt="" />
+                <div class="carousel-text-box">
+                  <div>
+                    <p class="carousel-title">Editorial House</p>
+                    <p class="carousel-desc">JL. Kencana oke. No2 universen</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/houses/house-3.png" alt="" />
+                <div class="carousel-text-box">
+                  <div>
+                    <p class="carousel-title">Editorial House</p>
+                    <p class="carousel-desc">JL. Kencana oke. No2 universen</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/houses/house-1.png" alt="" />
+                <div class="carousel-text-box">
+                  <div>
+                    <p class="carousel-title">Editorial House</p>
+                    <p class="carousel-desc">JL. Kencana oke. No2 universen</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/houses/house-2.png" alt="" />
+                <div class="carousel-text-box">
+                  <div>
+                    <p class="carousel-title">Editorial House</p>
+                    <p class="carousel-desc">JL. Kencana oke. No2 universen</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/houses/house-3.png" alt="" />
+                <div class="carousel-text-box">
+                  <div>
+                    <p class="carousel-title">Editorial House</p>
+                    <p class="carousel-desc">JL. Kencana oke. No2 universen</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- WHY CHOOSE US -->
-      <section class="wcu"></section>
-
       <!-- FAQs -->
-      <section class="faq"></section>
+      <section class="faq">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="heading-secondary">
+              FAQ’s – Frequently Asked Questions
+            </h2>
+            <p class="faq-text">
+              As you might imagine, real estate agents field quite a few
+              questions every day. People are naturally curious, and it’s an
+              agent’s job to guide.
+            </p>
+          </div>
+
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button class="accordion-button" type="button">
+                  How can I build equity into my house?
+                  <ion-icon
+                    class="accordion-icon"
+                    name="add-outline"
+                  ></ion-icon>
+                </button>
+              </h4>
+              <div class="accordion-collapse">
+                <div class="accordion-body">
+                  You can build equity in three ways. First (and easiest) is
+                  from market appreciation. Second, when making your monthly
+                  mortgage payment, try to send a little bit more.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button class="accordion-button" type="button">
+                  How can I build equity into my house?
+                  <ion-icon
+                    class="accordion-icon"
+                    name="add-outline"
+                  ></ion-icon>
+                </button>
+              </h4>
+              <div class="accordion-collapse">
+                <div class="accordion-body">
+                  You can build equity in three ways. First (and easiest) is
+                  from market appreciation. Second, when making your monthly
+                  mortgage payment, try to send a little bit more.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button class="accordion-button" type="button">
+                  How can I build equity into my house?
+                  <ion-icon
+                    class="accordion-icon"
+                    name="add-outline"
+                  ></ion-icon>
+                </button>
+              </h4>
+              <div class="accordion-collapse">
+                <div class="accordion-body">
+                  You can build equity in three ways. First (and easiest) is
+                  from market appreciation. Second, when making your monthly
+                  mortgage payment, try to send a little bit more.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button class="accordion-button" type="button">
+                  How can I build equity into my house?
+                  <ion-icon
+                    class="accordion-icon"
+                    name="add-outline"
+                  ></ion-icon>
+                </button>
+              </h4>
+              <div class="accordion-collapse">
+                <div class="accordion-body">
+                  You can build equity in three ways. First (and easiest) is
+                  from market appreciation. Second, when making your monthly
+                  mortgage payment, try to send a little bit more.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text-box">
+          <div class="footer-nav">
+            <h5 class="footer-title underline">More Renty</h5>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">FAQ</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">About us</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">Contact Us</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">Feedback</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">Join Our Community</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">Agent support </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-cta">
+            <h5 class="footer-title underline">Stay connected</h5>
+            <p class="footer-cta-text">
+              Sign up for inspiration for nourishing your body, mind and shine
+              from inside. Added bonus: you'll get 10% off your first Renty
+              order.
+            </p>
+
+            <form class="footer-form">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Email Address"
+              />
+              <button class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <ul class="footer-actions">
+          <li class="footer-action-item">
+            <a href="" class="footer-action-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="footer-action-item">
+            <a href="" class="footer-action-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="footer-action-item">
+            <a href="" class="footer-action-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="footer-action-item">
+            <a href="" class="footer-action-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer-desc">
+          Renty Group is committed to ensuring digital accessibility for
+          individuals with disabilities. We are continuously working to improve
+          the accessibility of our web experience for everyone.
+        </p>
+
+        <div class="footer-line"></div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">©uihut.com 2022. All Rights Reserved.</p>
+          <div class="footer-bottom-right">
+            <p>Terms of Use</p>
+            <p>Terms & Privacy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- IONICON SCRIPT -->
     <script
@@ -445,5 +837,11 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- AOS ANIMATE JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
